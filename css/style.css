@@ -965,16 +965,17 @@ ol {
 	SVG - Signature
 ----------------------*/
 .signature-wrapper {
-	transform: scale(0.3);	
+	transform: scale(0.4);	
 	transform-origin: top left;	
-	-ms-transform: scale(0.3); /* IE 9 */	
+	-ms-transform: scale(0.4); /* IE 9 */	
 	-ms-transform-origin: top left;
-	-webkit-transform: scale(0.3); /* Safari and Chrome */
+	-webkit-transform: scale(0.4); /* Safari and Chrome */
 	-webkit-transform-origin: top left;
-	-o-transform: scale(0.3); /* Opera */
+	-o-transform: scale(0.4); /* Opera */
 	-o-transform-origin: top left;
-	-moz-transform: scale(0.3); /* Firefox */
+	-moz-transform: scale(0.4); /* Firefox */
 	-moz-transform-origin: top left;
+	overflow: hidden;
 }
 
 #n {

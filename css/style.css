@@ -361,7 +361,7 @@ ol {
 	color: #40424a;
 }
 
-.social-links a {
+.scl-links a {
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
@@ -449,33 +449,33 @@ ol {
 /*---------------------
 	Social section
 -----------------------*/
-.social-section {
+.scl-section {
 	background: #f9f9f9;
 	padding: 80px 0;
 }
 
-.social-section .social-links {
+.scl-section .scl-links {
 	display: inline-block;
 	background: #f9f9f9;
 	position: relative;
 	z-index: 5;
 }
 
-.social-section .social-links a {
+.scl-section .scl-links a {
 	color: #484848;
 	font-size: 36px;
 	margin-right: 40px;
 }
 
-.social-section .social-links a:hover {
+.scl-section .scl-links a:hover {
 	color: #009fff;
 }
 
-.social-section .social-link-warp {
+.scl-section .scl-link-warp {
 	position: relative;
 }
 
-.social-section .social-link-warp h2 {
+.scl-section .scl-link-warp h2 {
 	display: inline-block;
 	float: right;
 	font-weight: 400;
@@ -485,7 +485,7 @@ ol {
 	z-index: 5;
 }
 
-.social-section .social-link-warp:after {
+.scl-section .scl-link-warp:after {
 	position: absolute;
 	content: '';
 	width: 50%;
@@ -724,7 +724,7 @@ ol {
   Responsive
 ==============================*/
 @media only screen and (max-width: 1730px) {
-	.home-two-style .social-section .social-link-warp:after {
+	.home-two-style .scl-section .scl-link-warp:after {
 		display: none;
 	}
 }
@@ -810,11 +810,11 @@ ol {
 	.icon-box {
 		margin-right: 30px;
 	}
-	.social-section .social-links {
+	.scl-section .scl-links {
 		display: block;
 		text-align: center;
 	}
-	.social-link-warp:after {
+	.scl-link-warp:after {
 		display: none;
 	}
 	.portfolio-item {
@@ -892,7 +892,7 @@ ol {
 	.header-section {
 		padding: 50px 0;
 	}
-	.social-section .social-links {
+	.scl-section .scl-links {
 		display: block;
 		text-align: center;
 	}
@@ -932,7 +932,7 @@ ol {
 	.hero-info ul li span {
 		display: block;
 	}
-	.social-section .social-links a {
+	.scl-section .scl-links a {
 		margin-right: 30px;
 	}
 	.resume-list h2 {

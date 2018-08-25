@@ -396,6 +396,12 @@ ol {
 	color: red;
 }
 
+.header-section .signature {
+	font-family: 'Homemade Apple', cursive;
+	text-decoration: none;
+	font-size: larger;
+}
+
 /*---------------------
 	Hero section
 -----------------------*/
@@ -953,4 +959,73 @@ ol {
 	.home-four-style .main-left-area {
 		padding-top: 250px;
 	}
+}
+
+/*---------------------
+	SVG - Signature
+----------------------*/
+.signature-wrapper {
+	transform: scale(0.3);	
+	transform-origin: top left;	
+	-ms-transform: scale(0.3); /* IE 9 */	
+	-ms-transform-origin: top left;
+	-webkit-transform: scale(0.3); /* Safari and Chrome */
+	-webkit-transform-origin: top left;
+	-o-transform: scale(0.3); /* Opera */
+	-o-transform-origin: top left;
+	-moz-transform: scale(0.3); /* Firefox */
+	-moz-transform-origin: top left;
+}
+
+#n {
+	stroke-dasharray: 530;
+	stroke-dashoffset: 530;
+	fill-opacity:  0;
+	animation: dash 0.1s linear forwards 1.2s;
+}
+
+#a1 {
+	stroke-dasharray: 500;
+	stroke-dashoffset: 500;
+	fill-opacity:  0;
+	animation: dash 0.1s linear forwards 1.3s;
+}
+
+#t {
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	fill-opacity:  0;
+	animation: dash 0.1s linear forwards 1.4s;
+}
+
+#a2 {
+	stroke-dasharray: 500;
+	stroke-dashoffset: 500;
+	fill-opacity:  0;
+	animation: dash 0.1s linear forwards 1.5s;
+}
+
+#s {
+	stroke-dasharray: 550;
+	stroke-dashoffset: 550;
+	fill-opacity:  0;
+	animation: dash 0.1s linear forwards 1.6s;
+}
+
+#h {
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	fill-opacity:  0;
+	animation: dash 0.1s linear forwards 1.7s;
+}
+
+#a3 {
+	stroke-dasharray: 500;
+	stroke-dashoffset: 500;
+	fill-opacity: 0;
+	animation: dash 0.1s linear forwards 1.8s;
+}
+
+@keyframes dash {
+	to { stroke-dashoffset: 0; fill-opacity: 1; }
 }

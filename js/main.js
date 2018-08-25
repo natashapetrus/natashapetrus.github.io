@@ -1,13 +1,9 @@
-/* =================================
-------------------------------------
-	Civic - CV Resume
-	Version: 1.0
- ------------------------------------ 
- ====================================*/
+
 
 
 
 'use strict';
+
 
 
 $(window).on('load', function() { 
@@ -15,8 +11,8 @@ $(window).on('load', function() {
 		Preloader
 	--------------------*/
 	$(".loader").fadeOut(); 
-	$("#preloader").delay(200).fadeOut("slow");
-
+	$("#preloader").delay(200).fadeOut("slow");	
+	$(".signature-wrapper").addClass("signature-animation");
 });
 
 

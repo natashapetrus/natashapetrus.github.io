@@ -978,49 +978,53 @@ ol {
 	overflow: hidden;
 }
 
-#n {
+.st1 {
+	fill-opacity: 0;
+}
+
+.signature-animation #n {
 	stroke-dasharray: 530;
 	stroke-dashoffset: 530;
 	fill-opacity:  0;
 	animation: dash 0.1s linear forwards 1.2s;
 }
 
-#a1 {
+.signature-animation #a1 {
 	stroke-dasharray: 500;
 	stroke-dashoffset: 500;
 	fill-opacity:  0;
 	animation: dash 0.1s linear forwards 1.3s;
 }
 
-#t {
+.signature-animation #t {
 	stroke-dasharray: 1000;
 	stroke-dashoffset: 1000;
 	fill-opacity:  0;
 	animation: dash 0.1s linear forwards 1.4s;
 }
 
-#a2 {
+.signature-animation #a2 {
 	stroke-dasharray: 500;
 	stroke-dashoffset: 500;
 	fill-opacity:  0;
 	animation: dash 0.1s linear forwards 1.5s;
 }
 
-#s {
+.signature-animation #s {
 	stroke-dasharray: 550;
 	stroke-dashoffset: 550;
 	fill-opacity:  0;
 	animation: dash 0.1s linear forwards 1.6s;
 }
 
-#h {
+.signature-animation #h {
 	stroke-dasharray: 1000;
 	stroke-dashoffset: 1000;
 	fill-opacity:  0;
 	animation: dash 0.1s linear forwards 1.7s;
 }
 
-#a3 {
+.signature-animation #a3 {
 	stroke-dasharray: 500;
 	stroke-dashoffset: 500;
 	fill-opacity: 0;

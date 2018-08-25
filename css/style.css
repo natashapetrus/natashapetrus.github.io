@@ -407,7 +407,7 @@ ol {
 	margin-bottom: 80px;
 }
 
-.hero-text h2 {
+.hero-text h1 {
 	font-size: 170px;
 	line-height: normal;
 	margin-bottom: 20px;
@@ -730,7 +730,7 @@ ol {
 }
 
 @media only screen and (max-width: 1600px) {
-	.hero-text h2 {
+	.hero-text h1 {
 		font-size: 120px;
 	}
 }
@@ -857,7 +857,7 @@ ol {
 		margin-right: 30px;
 		text-align: left;
 	}
-	.hero-text h2 {
+	.hero-text h1 {
 		font-size: 80px;
 	}
 	.portfolio-warp {
@@ -923,7 +923,7 @@ ol {
 
 /* small Mobile :320px. */
 @media only screen and (max-width: 479px) {
-	.hero-text h2 {
+	.hero-text h1 {
 		font-size: 50px;
 	}
 	.hero-info ul li {

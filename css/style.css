@@ -166,7 +166,7 @@ ol {
   	transition: ease-out 0.3s;
 }
 
-.site-btn:hover {
+.site-btn:hover, .btn-show-contact100:hover {
 	cursor: pointer;
 	box-shadow: inset 400px 0 0 0 #40424a;
 	color: #fff;

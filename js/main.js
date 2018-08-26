@@ -179,6 +179,10 @@ if($().circleProgress){
     /*==================================================================
     [ Show / hide pop-up ]*/
     $('.btn-hide-contact100').on('click', function(){
+		for(var i=0; i<input.length; i++) {
+            hideValidate(input[i]);
+		}
+
 		$('html').css("overflow", "auto");
 		$('.container-contact100').css("display", "none");
         $('.container-contact100').fadeOut(300);

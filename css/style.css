@@ -1304,6 +1304,7 @@ textarea:-ms-input-placeholder { color: #bdbdd3;}
 	color: #bdbdd3;
 	text-align: center;
 	display: block;
+	padding: 5px;
 }
 
 /*//////////////////////////////////////////////////////////////////

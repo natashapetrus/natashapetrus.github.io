@@ -41,6 +41,10 @@ textarea:focus {
 	outline: none;
 }
 
+a {
+	color: #009fff;
+}
+
 a:hover,
 a:focus {
 	text-decoration: none;
@@ -1322,6 +1326,12 @@ textarea:-ms-input-placeholder { color: #bdbdd3;}
 	  color: #009fff;
   }
   
-  .hide-success100:hover {
+  .hide-success100:hover, .inline-show-contact100 {
 	  cursor: pointer;
+  }
+
+  .inline-show-contact100 {
+	  color: #009fff;
+	  border: none;
+	  background: transparent;
   }

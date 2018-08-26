@@ -8,9 +8,9 @@
 		angle: { 0:30 },
 		opacity: { 0:1 },
 		children: {
-			delay: 800,
-			duration: 1500,
-			radius: { 8:3 },
+			delay: 500,
+			duration: 2000,
+			radius: { 6:3 },
 			fill:   [ '#000000' ],
 			easing: mojs.easing.bezier(.08,.69,.39,.97)
 		}
@@ -237,7 +237,15 @@ if($().circleProgress){
 			$('html').css("overflow", "hidden");		
 			$(".container-success100").css("display", "table");
 		}
-	  });
+	  }); 
+
+	/*==================================================================
+	[ 404 ] */
+	$('#frown').hover(function (){
+		$('.container-404-overlay').css("opacity", 0);
+	}, function() {
+		$('.container-404-overlay').css("opacity", 1);
+	});
 }
 
 })(jQuery);

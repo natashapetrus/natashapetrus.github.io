@@ -194,6 +194,12 @@ if($().circleProgress){
 		$('.container-contact100').fadeIn(300);
 	});
 
+	$('.inline-show-contact100').on('click', function(){
+		$('html').css("overflow", "hidden");
+		$('.container-contact100').css("display", "flex");
+		$('.container-contact100').fadeIn(300);
+	});
+
 	$('.btn-hide-success100').on('click', function(){
 		$('html').css("overflow", "auto");
 		$('.container-success100').css("display", "none");

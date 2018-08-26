@@ -1387,12 +1387,12 @@ textarea:-ms-input-placeholder { color: #bdbdd3;}
 }
 
 .title-404 {
+	padding: 5px;
 	display: block;
 	line-height: 1.2;
 	text-align: center;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	vertical-align: middle;
 	text-align: center;
 }
 

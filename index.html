@@ -297,7 +297,7 @@
 				</div>
 				<div class="col-md-8 text-md-right header-buttons">
 					<a href="http://dlresume.natashapetrus.com" class="site-btn">Download Resume</a>
-					<a target="_blank" href="http://hello.natashapetrus.com" class="site-btn">Contact me</a>
+					<button class="site-btn btn-show-contact100">Contact me</button>
 				</div>
 			</div>
 		</div>
@@ -611,7 +611,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xl-8 offset-xl-2 header-buttons" style="text-align: center">
-						<a target="_blank" href="http://hello.natashapetrus.com" class="site-btn" style="font-size: 20px; min-width: 250px;">Let's talk</a>
+						<button class="site-btn btn-show-contact100" style="font-size: 20px; min-width: 250px;">Let's talk</button>
 						<p><br />
 							if you're interested in working with me<br />
 							<small>..or if you just want to treat me to a cup o' coffee</small>
@@ -623,46 +623,80 @@
 		</section>
 	<!-- Contact button end -->
 
-	<!-- Contact section start -->
-	<!-- <section class="contact-section spad">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xl-8 offset-xl-2">
-					<div class="section-title">
-						<h2>Contact Me</h2>
-					</div>
-					<form class="contact-form">
-						<div class="row">
-							<div class="col-md-6">
-								<input type="text" placeholder="Name">
-							</div>
-							<div class="col-md-6">
-								<input type="text" placeholder="E-mail">
-							</div>
-							<div class="col-md-12">
-								<input type="text" placeholder="Subject">
-								<textarea placeholder="Message"></textarea>
-							</div>
-						</div>
-						<div class="text-md-right">
-							<button class="site-btn">Send message</button>
-						</div>
-					</form>
+	<!-- Contact pop-up start -->
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form"
+				action="https://formspree.io/natashatheo@hotmail.com"
+				method="POST">
+				<a class="btn-hide-contact100">
+					<i class="fas fa-times"></i>
+				</a>
+
+				<span class="contact100-form-title">					
+					<h2>Get in touch!</h2>
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="Please enter your name">
+					<input class="input100" type="text" name="name" placeholder="Name">
+					<span class="focus-input100"></span>
 				</div>
-			</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Please enter a valid e-mail">
+					<input class="input100" type="text" name="_replyto" placeholder="E-mail">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Please enter a subject">
+					<input class="input100" type="text" name="_subject" placeholder="Subject">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Please input your message">
+					<textarea class="input100" name="message" placeholder="Your message here"></textarea>
+					<span class="focus-input100"></span>
+				</div>
+				
+				<input type="hidden" name="_next" value="https://natashapetrus.com?success" />
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						<span>
+							<i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+							Send
+						</span>
+					</button>
+				</div>
+				
+			</form>
 		</div>
-	</section> -->
-	<!-- Contact section end -->
+	</div>
+	<!-- Contact pop-up end -->
+
+	<!-- Form submission success section start -->
+	<div class="container-success100">
+		<div class="success100">
+			<a class="btn-hide-success100">
+				<i class="fas fa-times"></i>
+			</a>
+			<span class="success100-title">					
+				<h2><i class="fas fa-check-circle"></i><br />Thanks!</h2>
+				<h4>I'll be in touch</h4><br/ >
+				<button class="hide-success100">Return to site</button>
+			</span>
+		</div>
+	</div>
+	<!-- Form submission success section end -->
 
 	<!-- Footer section start -->
 	<footer class="footer-section">
 		<div class="container text-center">
 			<div class="copyright"><!-- Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <i class="far fa-heart"></i>
-Template by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-// Background by <a href="https://www.toptal.com/designers" target="_blank">Toptal Designers</a>
-<!-- Template is licensed under CC BY 3.0. -->
-</div>
+				Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <i class="far fa-heart"></i>
+				Template by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+				// Background by <a href="https://www.toptal.com/designers" target="_blank">Toptal Designers</a>
+				<!-- Template is licensed under CC BY 3.0. -->
+			</div>
 		</div>
 	</footer>
 	<!-- Footer section end -->

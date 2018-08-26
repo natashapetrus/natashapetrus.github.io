@@ -220,6 +220,7 @@ if($().circleProgress){
 		count: 15,
 		angle: { 0:30 },
 		opacity: { 0:1 },
+		delay: 500,
 		children: {
 			delay: 500,
 			duration: 1500,
@@ -232,7 +233,7 @@ if($().circleProgress){
 	$(document).ready(function () {
 		if (document.URL.indexOf("success") !== -1){
 			$('html').css("overflow", "hidden");		
-			$(".container-success100").css("display", "table");
+			$(".container-success100").css("display", "table");			
 			burst.replay();
 		}
 	  });

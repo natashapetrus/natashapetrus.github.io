@@ -1194,6 +1194,7 @@ textarea.input100 {
 
   
 .contact100-form-btn:hover {
+	cursor: pointer;
 	box-shadow: inset 400px 0 0 0 #40424a;
 	color: #fff;
 }

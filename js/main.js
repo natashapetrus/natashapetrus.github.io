@@ -251,6 +251,9 @@ if($().circleProgress){
 	$(document).keydown(function(e) {
 		// ESCAPE key pressed
 		if (e.keyCode == 27) {
+			for(var i=0; i<input.length; i++) {
+				hideValidate(input[i]);
+			}
 			$('html').css("overflow", "auto");
 			$('.container-success100').css("display", "none");
 			$('.container-success100').fadeOut(300);

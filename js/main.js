@@ -246,6 +246,18 @@ if($().circleProgress){
 	}, function() {
 		$('.container-404-overlay').css("opacity", 1);
 	});
+
+	/* EXTRAS */
+	$(document).keydown(function(e) {
+		// ESCAPE key pressed
+		if (e.keyCode == 27) {
+			$('html').css("overflow", "auto");
+			$('.container-success100').css("display", "none");
+			$('.container-success100').fadeOut(300);
+			$('.container-contact100').css("display", "none");
+        	$('.container-contact100').fadeOut(300);
+		}
+	});
 }
 
 })(jQuery);

@@ -1036,7 +1036,8 @@ ol {
 .container-contact100 {
   width: 100%;
   height: 100%;  
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   display: none;
   flex-wrap: wrap;
   justify-content: center;
@@ -1298,6 +1299,12 @@ textarea::-webkit-input-placeholder { color: #bdbdd3;}
 textarea:-moz-placeholder { color: #bdbdd3;}
 textarea::-moz-placeholder { color: #bdbdd3;}
 textarea:-ms-input-placeholder { color: #bdbdd3;}
+
+.note-input100 {
+	color: #bdbdd3;
+	text-align: center;
+	display: block;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ Button show / hide ]*/

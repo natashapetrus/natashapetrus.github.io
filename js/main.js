@@ -214,10 +214,26 @@ if($().circleProgress){
 	
 	/*==================================================================
 	[ Form submission success ] */
+	var burst = new mojs.Burst({
+		parent: $(".burst-container"),
+		radius: { 90: 150 },
+		count: 15,
+		angle: { 0:30 },
+		opacity: { 0:1 },
+		children: {
+			delay: 500,
+			duration: 1500,
+			radius: { 8:3 },
+			fill:   [ '#000000' ],
+			easing: mojs.easing.bezier(.08,.69,.39,.97)
+		}
+		});
+
 	$(document).ready(function () {
 		if (document.URL.indexOf("success") !== -1){
 			$('html').css("overflow", "hidden");		
 			$(".container-success100").css("display", "table");
+			burst.replay();
 		}
 	  });
 }

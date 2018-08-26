@@ -610,7 +610,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xl-8 offset-xl-2 header-buttons" style="text-align: center">
-						<button class="site-btn btn-show-contact100" style="font-size: 20px; min-width: 250px;">Let's talk</button>
+						<a href="javascript:void(0);" class="site-btn btn-show-contact100" style="font-size: 20px; min-width: 250px;">Let's talk</a>
 						<p><br />
 							if you're interested in working with me<br />
 							<small>..or if you just want to treat me to a cup o' coffee</small>
@@ -658,6 +658,11 @@
 				
 				<input type="hidden" name="_next" value="https://natashapetrus.com?success" />
 
+				<span class="note-input100">
+					<small>Help me fight spams!</small>
+					<small>You will be taken to a reCAPTCHA page upon submission</small>
+				</span>
+
 				<div class="container-contact100-form-btn">
 					<button class="contact100-form-btn">
 						<span>
@@ -678,8 +683,11 @@
 			<a class="btn-hide-success100">
 				<i class="fas fa-times"></i>
 			</a>
-			<span class="success100-title">					
-				<h2><i class="fas fa-check-circle"></i><br />Thanks!</h2>
+			<span class="success100-title">		
+				<div class="burst-container">
+					<h2><i id="burst-btn" class="fas fa-check-circle"></i></h2>
+				</div>
+				<h2>Thanks!</h2>
 				<h4>I'll be in touch</h4><br/ >
 				<button class="hide-success100">Return to site</button>
 			</span>
@@ -702,6 +710,7 @@
 
 
 	<!--====== Javascripts & Jquery ======-->
+	<script src="js/mo.min.js"></script>
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>

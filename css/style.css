@@ -103,6 +103,12 @@ ol {
 	background: #fff;
 }
 
+@media only screen and (max-width: 1024px) {
+	#preloader {
+		display: none !important;
+	}
+}
+
 .loader {
 	width: 30px;
 	height: 30px;

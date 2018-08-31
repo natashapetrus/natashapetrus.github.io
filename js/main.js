@@ -196,7 +196,7 @@ if($().circleProgress){
 
     /*==================================================================
 	[ Show / hide pop-up ]*/
-	if ($(window).width() < 360 && $(window).height() < 700) { // if screen is really small
+	if ($(window).width() < 100 && $(window).height() < 700) { // if screen is really small
 		$('a.btn-show-contact100').attr("href", "mailto:hello@natashapetrus.com");
 	}
 	else{
@@ -209,32 +209,32 @@ if($().circleProgress){
 				hideValidate(input[i]);
 			}
 	
-			$('html').css("overflow", "auto");
+			$('html,body').css("overflow", "auto");
 			$('.container-contact100').css("display", "none");
 			$('.container-contact100').fadeOut(300);
 		});
 	
 		$('.btn-show-contact100').on('click', function(){
-			$('html').css("overflow", "hidden");
+			$('html,body').css("overflow", "hidden");
 			$('.container-contact100').css("display", "flex");
 			$('.container-contact100').fadeIn(300);
 		});
 	
 		$('.inline-show-contact100').on('click', function(){
-			$('html').css("overflow", "hidden");
+			$('html,body').css("overflow", "hidden");
 			$('.container-contact100').css("display", "flex");
 			$('.container-contact100').fadeIn(300);
 		});
 	}
 	
 	$('.btn-hide-success100').on('click', function(){
-		$('html').css("overflow", "auto");
+		$('html,body').css("overflow", "auto");
 		$('.container-success100').css("display", "none");
 		$('.container-success100').fadeOut(300);
 	});
 	
 	$('.hide-success100').on('click', function(){
-		$('html').css("overflow", "auto");
+		$('html,body').css("overflow", "auto");
 		$('.container-success100').css("display", "none");
 		$('.container-success100').fadeOut(300);
 	});
@@ -243,7 +243,7 @@ if($().circleProgress){
 	[ Form submission success ] */
 	$(document).ready(function () {
 		if (document.URL.indexOf("success") !== -1){
-			$('html').css("overflow", "hidden");		
+			$('html,body').css("overflow", "hidden");		
 			$(".container-success100").css("display", "table");
 		}
 	  }); 

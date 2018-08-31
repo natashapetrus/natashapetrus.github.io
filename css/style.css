@@ -1118,6 +1118,12 @@ ol {
 	text-align: center;
 }
 
+@media only screen and (max-width: 922px) {
+	.contact100-form-title h2 {
+		font-size: xx-large;
+	}
+}
+
 /*------------------------------------------------------------------
 [ Input ]*/
 
@@ -1180,8 +1186,10 @@ textarea.input100 {
   transition: all 0.4s;
 }
 
-.input100:focus + .focus-input100 {
-  width: calc(100% + 20px);
+@media only screen and (min-width: 1024px) {
+	.input100:focus + .focus-input100 {
+		width: calc(100% + 20px);
+	}
 }
 
 /*------------------------------------------------------------------

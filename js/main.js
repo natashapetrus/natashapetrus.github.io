@@ -196,47 +196,48 @@ if($().circleProgress){
 
     /*==================================================================
 	[ Show / hide pop-up ]*/
-	if ($(window).width <= 360 && $(window).height() <= 600) { // if screen is really small
-		$('a.btn-show-contact100').attr("href", "mailo:hello@natashapetrus.com")
+	if ($(window).width() < 360 && $(window).height() < 700) { // if screen is really small
+		$('a.btn-show-contact100').attr("href", "mailto:hello@natashapetrus.com");
 	}
-	if ($(window).width <= 800) {
-		$('.container-contact100').css("padding-top", "100px");
-	}
-	
-
-    $('.btn-hide-contact100').on('click', function(){
-		for(var i=0; i<input.length; i++) {
-            hideValidate(input[i]);
+	else{
+		if ($(window).width() <= 800) {
+			$('.container-contact100').css("padding-top", "100px");
 		}
 
-		$('html').css("overflow", "auto");
-		$('.container-contact100').css("display", "none");
-        $('.container-contact100').fadeOut(300);
-    });
-
-    $('.btn-show-contact100').on('click', function(){
-		$('html').css("overflow", "hidden");
-		$('.container-contact100').css("display", "flex");
-		$('.container-contact100').fadeIn(300);
-	});
-
-	$('.inline-show-contact100').on('click', function(){
-		$('html').css("overflow", "hidden");
-		$('.container-contact100').css("display", "flex");
-		$('.container-contact100').fadeIn(300);
-	});
-
-	$('.btn-hide-success100').on('click', function(){
-		$('html').css("overflow", "auto");
-		$('.container-success100').css("display", "none");
-        $('.container-success100').fadeOut(300);
-	});
+		$('.btn-hide-contact100').on('click', function(){
+			for(var i=0; i<input.length; i++) {
+				hideValidate(input[i]);
+			}
 	
-	$('.hide-success100').on('click', function(){
-		$('html').css("overflow", "auto");
-		$('.container-success100').css("display", "none");
-        $('.container-success100').fadeOut(300);
-    });
+			$('html').css("overflow", "auto");
+			$('.container-contact100').css("display", "none");
+			$('.container-contact100').fadeOut(300);
+		});
+	
+		$('.btn-show-contact100').on('click', function(){
+			$('html').css("overflow", "hidden");
+			$('.container-contact100').css("display", "flex");
+			$('.container-contact100').fadeIn(300);
+		});
+	
+		$('.inline-show-contact100').on('click', function(){
+			$('html').css("overflow", "hidden");
+			$('.container-contact100').css("display", "flex");
+			$('.container-contact100').fadeIn(300);
+		});
+	
+		$('.btn-hide-success100').on('click', function(){
+			$('html').css("overflow", "auto");
+			$('.container-success100').css("display", "none");
+			$('.container-success100').fadeOut(300);
+		});
+		
+		$('.hide-success100').on('click', function(){
+			$('html').css("overflow", "auto");
+			$('.container-success100').css("display", "none");
+			$('.container-success100').fadeOut(300);
+		});
+	}	
 	
 	/*==================================================================
 	[ Form submission success ] */

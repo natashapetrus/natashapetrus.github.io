@@ -195,7 +195,11 @@ if($().circleProgress){
     
 
     /*==================================================================
-    [ Show / hide pop-up ]*/
+	[ Show / hide pop-up ]*/
+	if ($(window).height() < 700) {
+		$('.container-contact100').css("padding-top", "100px");
+	}
+
     $('.btn-hide-contact100').on('click', function(){
 		for(var i=0; i<input.length; i++) {
             hideValidate(input[i]);

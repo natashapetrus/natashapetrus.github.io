@@ -22,9 +22,9 @@
 		--------------------*/
 		// $(".loader").fadeOut(); 
 		// $("#preloader").delay(200).fadeOut("slow");	
-		$(".signature-wrapper").addClass("signature-animation");
 		// if JS enabled, replace with modal
 		$("a.btn-show-contact100,a.inline-show-contact100").attr("href", "javascript:void(0);");
+		$(".signature-wrapper").addClass("signature-animation");
 		if (document.URL.indexOf("success") !== -1){
 			burst.replay();
 		}
@@ -202,10 +202,6 @@ if($().circleProgress){
 		$('a.btn-show-contact100').attr("href", "mailto:hello@natashapetrus.com");
 	}
 	else{
-		if ($(window).height() > 700) { // if long screen, no padding will do
-			$('.container-contact100').css("padding-top", "0px");
-		}
-
 		$('.btn-hide-contact100').on('click', function(){
 			for(var i=0; i<input.length; i++) {
 				hideValidate(input[i]);

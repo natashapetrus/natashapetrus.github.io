@@ -1061,6 +1061,7 @@ ol {
 [ Contact and Thank you Pop-up]*/
 
 .container-contact100 {
+  padding-top: 100px;
   width: 100%;
   height: 100%;  
   overflow-x: hidden;

@@ -200,8 +200,8 @@ if($().circleProgress){
 		$('a.btn-show-contact100').attr("href", "mailto:hello@natashapetrus.com");
 	}
 	else{
-		if ($(window).width() <= 800) {
-			$('.container-contact100').css("padding-top", "100px");
+		if ($(window).height() > 700) { // if long screen, no padding will do
+			$('.container-contact100').css("padding-top", "0px");
 		}
 
 		$('.btn-hide-contact100').on('click', function(){

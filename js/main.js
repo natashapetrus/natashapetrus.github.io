@@ -23,6 +23,8 @@
 		// $(".loader").fadeOut(); 
 		// $("#preloader").delay(200).fadeOut("slow");	
 		$(".signature-wrapper").addClass("signature-animation");
+		// if JS enabled, replace with modal
+		$("a.btn-show-contact").attr("href", "javascript:void(0);");
 		if (document.URL.indexOf("success") !== -1){
 			burst.replay();
 		}

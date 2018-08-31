@@ -196,7 +196,7 @@ if($().circleProgress){
 
     /*==================================================================
 	[ Show / hide pop-up ]*/
-	if ($(window).width() < 100 && $(window).height() < 700) { // if screen is really small
+	if (navigator.userAgent.match(/(\(iPod|\(iPhone|\(iPad)/)) { // don't show contact form on iOS
 		$('a.btn-show-contact100').attr("href", "mailto:hello@natashapetrus.com");
 	}
 	else{

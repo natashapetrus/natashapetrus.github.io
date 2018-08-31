@@ -196,7 +196,7 @@ if($().circleProgress){
 
     /*==================================================================
 	[ Show / hide pop-up ]*/
-	if ($(window).width() < 100 && $(window).height() < 700) { // if screen is really small
+	if (navigator.userAgent.match(/(\(iPod|\(iPhone|\(iPad)/)) { // if ios
 		$('a.btn-show-contact100').attr("href", "mailto:hello@natashapetrus.com");
 	}
 	else{
@@ -243,7 +243,7 @@ if($().circleProgress){
 	[ Form submission success ] */
 	$(document).ready(function () {
 		if (document.URL.indexOf("success") !== -1){
-			$('html,body').css("overflow", "hidden");		
+			$('html').css("overflow", "hidden");		
 			$(".container-success100").css("display", "table");
 		}
 	  }); 

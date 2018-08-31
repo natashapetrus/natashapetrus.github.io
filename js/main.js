@@ -196,9 +196,13 @@ if($().circleProgress){
 
     /*==================================================================
 	[ Show / hide pop-up ]*/
-	if ($(window).height() < 700) {
+	if ($(window).width <= 360 && $(window).height() <= 600) { // if screen is really small
+		$('a.btn-show-contact100').attr("href", "mailo:hello@natashapetrus.com")
+	}
+	if ($(window).width <= 800) {
 		$('.container-contact100').css("padding-top", "100px");
 	}
+	
 
     $('.btn-hide-contact100').on('click', function(){
 		for(var i=0; i<input.length; i++) {

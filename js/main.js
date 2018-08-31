@@ -210,34 +210,37 @@ if($().circleProgress){
 			}
 	
 			$('html').css("overflow", "auto");
+			$('html').css("position", "relative");
 			$('.container-contact100').css("display", "none");
 			$('.container-contact100').fadeOut(300);
 		});
 	
 		$('.btn-show-contact100').on('click', function(){
 			$('html').css("overflow", "hidden");
+			$('html').css("position", "fixed");
 			$('.container-contact100').css("display", "flex");
 			$('.container-contact100').fadeIn(300);
 		});
 	
 		$('.inline-show-contact100').on('click', function(){
 			$('html').css("overflow", "hidden");
+			$('html').css("position", "fixed");
 			$('.container-contact100').css("display", "flex");
 			$('.container-contact100').fadeIn(300);
 		});
+	}
 	
-		$('.btn-hide-success100').on('click', function(){
-			$('html').css("overflow", "auto");
-			$('.container-success100').css("display", "none");
-			$('.container-success100').fadeOut(300);
-		});
-		
-		$('.hide-success100').on('click', function(){
-			$('html').css("overflow", "auto");
-			$('.container-success100').css("display", "none");
-			$('.container-success100').fadeOut(300);
-		});
-	}	
+	$('.btn-hide-success100').on('click', function(){
+		$('html').css("overflow", "auto");
+		$('.container-success100').css("display", "none");
+		$('.container-success100').fadeOut(300);
+	});
+	
+	$('.hide-success100').on('click', function(){
+		$('html').css("overflow", "auto");
+		$('.container-success100').css("display", "none");
+		$('.container-success100').fadeOut(300);
+	});
 	
 	/*==================================================================
 	[ Form submission success ] */

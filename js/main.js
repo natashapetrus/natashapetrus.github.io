@@ -20,8 +20,8 @@
 		/*------------------
 			Preloader
 		--------------------*/
-		$(".loader").fadeOut(); 
-		$("#preloader").delay(200).fadeOut("slow");	
+		// $(".loader").fadeOut(); 
+		// $("#preloader").delay(200).fadeOut("slow");	
 		$(".signature-wrapper").addClass("signature-animation");
 		if (document.URL.indexOf("success") !== -1){
 			burst.replay();

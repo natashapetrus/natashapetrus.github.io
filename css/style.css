@@ -1001,59 +1001,60 @@ ol {
 
 .st1 {
 	fill-opacity: 0;
+	stroke-opacity: 0;
 }
 
 .signature-animation #n {
 	stroke-dasharray: 530;
 	stroke-dashoffset: 530;
 	fill-opacity:  0;
-	animation: dash 0.1s linear forwards 1s;
+	animation: dash 0.1s linear forwards 0.5s;
 }
 
 .signature-animation #a1 {
 	stroke-dasharray: 500;
 	stroke-dashoffset: 500;
 	fill-opacity:  0;
-	animation: dash 0.1s linear forwards 1.1s;
+	animation: dash 0.1s linear forwards 0.6s;
 }
 
 .signature-animation #t {
 	stroke-dasharray: 1000;
 	stroke-dashoffset: 1000;
 	fill-opacity:  0;
-	animation: dash 0.1s linear forwards 1.2s;
+	animation: dash 0.1s linear forwards 0.7s;
 }
 
 .signature-animation #a2 {
 	stroke-dasharray: 500;
 	stroke-dashoffset: 500;
 	fill-opacity:  0;
-	animation: dash 0.1s linear forwards 1.3s;
+	animation: dash 0.1s linear forwards 0.8s;
 }
 
 .signature-animation #s {
 	stroke-dasharray: 550;
 	stroke-dashoffset: 550;
 	fill-opacity:  0;
-	animation: dash 0.1s linear forwards 1.4s;
+	animation: dash 0.1s linear forwards 0.9s;
 }
 
 .signature-animation #h {
 	stroke-dasharray: 1000;
 	stroke-dashoffset: 1000;
 	fill-opacity:  0;
-	animation: dash 0.1s linear forwards 1.5s;
+	animation: dash 0.1s linear forwards 1.0s;
 }
 
 .signature-animation #a3 {
 	stroke-dasharray: 500;
 	stroke-dashoffset: 500;
 	fill-opacity: 0;
-	animation: dash 0.1s linear forwards 1.6s;
+	animation: dash 0.1s linear forwards 1.1s;
 }
 
 @keyframes dash {
-	to { stroke-dashoffset: 0; fill-opacity: 1; }
+	to { stroke-dashoffset: 0; fill-opacity: 1}
 }
 
 /*//////////////////////////////////////////////////////////////////

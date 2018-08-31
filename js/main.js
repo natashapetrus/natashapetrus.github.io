@@ -196,7 +196,7 @@ if($().circleProgress){
 
     /*==================================================================
 	[ Show / hide pop-up ]*/
-	if ($(window).width() < 360 && $(window).height() < 700) { // if screen is really small
+	if ($(window).width() < 100 && $(window).height() < 700) { // if screen is really small
 		$('a.btn-show-contact100').attr("href", "mailto:hello@natashapetrus.com");
 	}
 	else{

@@ -258,7 +258,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-assets
+  jekyll-assets (~> 2.4.0)
+  sprockets (~> 3.7.2)
 
 BUNDLED WITH
    1.16.4

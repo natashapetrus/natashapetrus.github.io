@@ -237,7 +237,7 @@ if($().circleProgress){
 	});
 	
 	/*==================================================================
-	[ Form submission success ] */
+	[ Form submission success and button behavior change on DOM rendered ] */
 	$(document).ready(function () {		
 		$("a.btn-show-contact100,a.inline-show-contact100").attr("href", "javascript:void(0);");
 		if (document.URL.indexOf("success") !== -1){

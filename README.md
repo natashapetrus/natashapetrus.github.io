@@ -20,4 +20,4 @@ https://natashapetrus.com/
 * [Instagram](http://ig.natashapetrus.com)
 * [LinkedIn](http://linkedin.natashapetrus.com)
 * [GitHub](http://github.natashapetrus.com)
-* [E-mail](http://mailto:hello@natashapetrus.com)
+* [E-mail](mailto:hello@natashapetrus.com)

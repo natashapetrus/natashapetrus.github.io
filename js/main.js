@@ -23,7 +23,6 @@
 		// $(".loader").fadeOut(); 
 		// $("#preloader").delay(200).fadeOut("slow");	
 		// if JS enabled, replace with modal
-		$("a.btn-show-contact100,a.inline-show-contact100").attr("href", "javascript:void(0);");
 		$(".signature-wrapper").addClass("signature-animation");
 		if (document.URL.indexOf("success") !== -1){
 			burst.replay();
@@ -239,7 +238,8 @@ if($().circleProgress){
 	
 	/*==================================================================
 	[ Form submission success ] */
-	$(document).ready(function () {
+	$(document).ready(function () {		
+		$("a.btn-show-contact100,a.inline-show-contact100").attr("href", "javascript:void(0);");
 		if (document.URL.indexOf("success") !== -1){
 			$('html').css("overflow", "hidden");		
 			$(".container-success100").css("display", "table");

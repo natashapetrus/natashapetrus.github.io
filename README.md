@@ -2,7 +2,7 @@
 
 https://natashapetrus.com/
 
-#### :fire: Created using:
+#### :fire: Generated with:
 * [Jekyll](https://jekyllrb.com/)
   * [jekyll-assets](https://github.com/envygeeks/jekyll-assets)
   * [jekyll-minibundle](https://github.com/tkareine/jekyll-minibundle)

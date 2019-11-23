@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: natashapetrus.com
+Token: e941fa0baf6b7a08e144ae42f390276ee5ae4814cdbd0f6a086bed925e78293d
